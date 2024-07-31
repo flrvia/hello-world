@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="mKH81YA4oT9M9gOP3-xf">
-    <mxGraphModel dx="2272" dy="3025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="2854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,6 +217,9 @@
         <mxCell id="yn930gfV0JZmbcSHbWSg-65" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;" vertex="1" parent="1">
           <mxGeometry x="1761.25" y="-370" width="42.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-70" target="yn930gfV0JZmbcSHbWSg-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yn930gfV0JZmbcSHbWSg-70" value="Criação da entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1722.5" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
@@ -229,6 +232,21 @@
               <mxPoint x="1780" y="-690" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-73" target="yn930gfV0JZmbcSHbWSg-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-73" value="&lt;b&gt;API - GET&lt;/b&gt;&lt;div&gt;Get a single entry&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-74" target="yn930gfV0JZmbcSHbWSg-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-74" value="Copy payload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-77" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create an entry with JSON RTE&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="-540" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

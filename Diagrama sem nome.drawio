@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="mKH81YA4oT9M9gOP3-xf">
-    <mxGraphModel dx="1776" dy="2854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2705" dy="3385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,16 @@
         </mxCell>
         <mxCell id="Q30Wrn-e5RRqp390VMw--26" value="Criação de uma release" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;" parent="1" vertex="1">
           <mxGeometry x="435" y="270" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yn930gfV0JZmbcSHbWSg-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q30Wrn-e5RRqp390VMw--30" target="Q30Wrn-e5RRqp390VMw--34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="550" />
+              <mxPoint x="-300" y="550" />
+              <mxPoint x="-300" y="-510" />
+              <mxPoint x="295" y="-510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Q30Wrn-e5RRqp390VMw--30" value="Deploy em Production" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="280" width="120" height="60" as="geometry" />

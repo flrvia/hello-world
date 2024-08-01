@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="mKH81YA4oT9M9gOP3-xf">
-    <mxGraphModel dx="2705" dy="3385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4037" dy="4003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="Q30Wrn-e5RRqp390VMw--26" value="Criação de uma release" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;" parent="1" vertex="1">
           <mxGeometry x="435" y="270" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q30Wrn-e5RRqp390VMw--30" target="Q30Wrn-e5RRqp390VMw--34">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Q30Wrn-e5RRqp390VMw--30" target="Q30Wrn-e5RRqp390VMw--34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="930" y="550" />
@@ -95,145 +95,145 @@
         <mxCell id="Q30Wrn-e5RRqp390VMw--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.772;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q30Wrn-e5RRqp390VMw--39" target="Q30Wrn-e5RRqp390VMw--49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q30Wrn-e5RRqp390VMw--54" target="yn930gfV0JZmbcSHbWSg-1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Q30Wrn-e5RRqp390VMw--54" target="yn930gfV0JZmbcSHbWSg-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q30Wrn-e5RRqp390VMw--54" value="Serviço escuta através de uma fila" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="-406.25" width="100" height="92.5" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-1" target="yn930gfV0JZmbcSHbWSg-4">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-1" target="yn930gfV0JZmbcSHbWSg-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-1" target="yn930gfV0JZmbcSHbWSg-6">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-1" target="yn930gfV0JZmbcSHbWSg-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-1" value="Guarda o payload e usará o content_type_uid e uid que se refere a entry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-1" value="Guarda o payload e usará o content_type_uid e uid que se refere a entry" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="-395" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-4" value="&lt;pre style=&quot;box-sizing: inherit; line-height: 0.875rem; margin-top: 0px; margin-bottom: 0px; color: rgb(33, 33, 33); font-size: 14px;&quot;&gt;{&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;url&quot;: &quot;https://www-uat.livelo.com.br/nova-home/&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;method&quot;: &quot;POST&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;headers&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;Content-Type&quot;: &quot;application/json&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;User-Agent&quot;: &quot;Contentstack&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;X-Contentstack-Request-Signature&quot;: &quot;6gMkQ/mV4wwp1LAeIL9yjKJ2DKB4nZA==&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;X-Contentstack-Signature&quot;: &quot;2f667a463c5815258e6e0f77d2036b62b00577eb&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;  },&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;&lt;b&gt;body&lt;/b&gt;&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;triggered_at&quot;: &quot;2024-07-29T14:49:27.063Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;api_key&quot;: &quot;blt2aea50371ca8d246&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;data&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;action&quot;: &quot;deploy&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;branch&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;alias&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;source&quot;: &quot;main&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;dev&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;environment&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;ACL&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_id&quot;: &quot;6526f7fbea594f757c014ac4&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_version&quot;: 19,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;api_key&quot;: &quot;blt2aea50371ca8d246&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;app_user_object_uid&quot;: &quot;system&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;color&quot;: &quot;#ffd600&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_at&quot;: &quot;2023-10-11T19:31:07.923Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_by&quot;: &quot;cs256e9082740d4746&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;deleted_at&quot;: false,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;name&quot;: &quot;homologation&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;org_uid&quot;: &quot;bltc1e5b2ccc2bfbe62&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;tags&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;blt6e7e9c413404f232&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_at&quot;: &quot;2024-04-12T13:43:29.521Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_by&quot;: &quot;bltaee82da01b646774&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;urls&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;locale&quot;: &quot;pt-br&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;url&quot;: &quot;https://www-uat-preview.livelo.com.br&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ]&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;&lt;b&gt;release&lt;/b&gt;&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_deploy_latest&quot;: false,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_at&quot;: &quot;2024-07-29T14:48:05.357Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_by&quot;: &quot;bltcbdc30c84e7b3a81&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;description&quot;: &quot;&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;&lt;b&gt;items&lt;/b&gt;&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;action&quot;: &quot;publish&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;&lt;b&gt;content_type_uid&lt;/b&gt;&quot;: &quot;app_config_screen&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;locale&quot;: &quot;pt-br&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;taxonomies&quot;: null,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;title&quot;: &quot;Teste&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;&lt;b&gt;uid&lt;/b&gt;&quot;: &quot;bltfcce90150884dddf&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;version&quot;: 6&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;locked&quot;: true,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;name&quot;: &quot;hello&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;status&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;environment&quot;: &quot;blt6e7e9c413404f232&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;status&quot;: &quot;success&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;time&quot;: &quot;2024-07-29T14:49:26.863Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;user&quot;: &quot;bltcbdc30c84e7b3a81&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;blt992266c3ec2801cc&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_at&quot;: &quot;2024-07-29T14:49:26.866Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_by&quot;: &quot;bltcbdc30c84e7b3a81&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;status&quot;: &quot;success&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;    },&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;event&quot;: &quot;deploy&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;module&quot;: &quot;release&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;  }&lt;br style=&quot;font-size: 14px;&quot;&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#F2FFFD;strokeColor=#66FF66;strokeWidth=6;fontSize=14;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-4" value="&lt;pre style=&quot;box-sizing: inherit; line-height: 0.875rem; margin-top: 0px; margin-bottom: 0px; color: rgb(33, 33, 33); font-size: 14px;&quot;&gt;{&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;url&quot;: &quot;https://www-uat.livelo.com.br/nova-home/&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;method&quot;: &quot;POST&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;headers&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;Content-Type&quot;: &quot;application/json&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;User-Agent&quot;: &quot;Contentstack&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;X-Contentstack-Request-Signature&quot;: &quot;6gMkQ/mV4wwp1LAeIL9yjKJ2DKB4nZA==&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;X-Contentstack-Signature&quot;: &quot;2f667a463c5815258e6e0f77d2036b62b00577eb&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;  },&lt;br style=&quot;font-size: 14px;&quot;&gt;  &quot;&lt;b&gt;body&lt;/b&gt;&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;triggered_at&quot;: &quot;2024-07-29T14:49:27.063Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;api_key&quot;: &quot;blt2aea50371ca8d246&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;data&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;action&quot;: &quot;deploy&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;branch&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;alias&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;source&quot;: &quot;main&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;dev&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;environment&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;ACL&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_id&quot;: &quot;6526f7fbea594f757c014ac4&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_version&quot;: 19,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;api_key&quot;: &quot;blt2aea50371ca8d246&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;app_user_object_uid&quot;: &quot;system&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;color&quot;: &quot;#ffd600&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_at&quot;: &quot;2023-10-11T19:31:07.923Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_by&quot;: &quot;cs256e9082740d4746&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;deleted_at&quot;: false,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;name&quot;: &quot;homologation&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;org_uid&quot;: &quot;bltc1e5b2ccc2bfbe62&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;tags&quot;: [],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;blt6e7e9c413404f232&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_at&quot;: &quot;2024-04-12T13:43:29.521Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_by&quot;: &quot;bltaee82da01b646774&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;urls&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;locale&quot;: &quot;pt-br&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;url&quot;: &quot;https://www-uat-preview.livelo.com.br&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ]&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;&lt;b&gt;release&lt;/b&gt;&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;_deploy_latest&quot;: false,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_at&quot;: &quot;2024-07-29T14:48:05.357Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;created_by&quot;: &quot;bltcbdc30c84e7b3a81&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;description&quot;: &quot;&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;&lt;b&gt;items&lt;/b&gt;&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;action&quot;: &quot;publish&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;&lt;b&gt;content_type_uid&lt;/b&gt;&quot;: &quot;app_config_screen&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;locale&quot;: &quot;pt-br&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;taxonomies&quot;: null,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;title&quot;: &quot;Teste&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;&lt;b&gt;uid&lt;/b&gt;&quot;: &quot;bltfcce90150884dddf&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;version&quot;: 6&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;locked&quot;: true,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;name&quot;: &quot;hello&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;status&quot;: [&lt;br style=&quot;font-size: 14px;&quot;&gt;          {&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;environment&quot;: &quot;blt6e7e9c413404f232&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;status&quot;: &quot;success&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;time&quot;: &quot;2024-07-29T14:49:26.863Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;            &quot;user&quot;: &quot;bltcbdc30c84e7b3a81&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;          }&lt;br style=&quot;font-size: 14px;&quot;&gt;        ],&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;uid&quot;: &quot;blt992266c3ec2801cc&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_at&quot;: &quot;2024-07-29T14:49:26.866Z&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;        &quot;updated_by&quot;: &quot;bltcbdc30c84e7b3a81&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;      },&lt;br style=&quot;font-size: 14px;&quot;&gt;      &quot;status&quot;: &quot;success&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;    },&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;event&quot;: &quot;deploy&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;    &quot;module&quot;: &quot;release&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;  }&lt;br style=&quot;font-size: 14px;&quot;&gt;}&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#F2FFFD;strokeColor=#66FF66;strokeWidth=6;fontSize=14;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="362.5" y="-1990" width="655" height="1110" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-6" target="yn930gfV0JZmbcSHbWSg-16">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-6" target="yn930gfV0JZmbcSHbWSg-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-6" value="Existe o content_type_uid?" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-6" value="Existe o content_type_uid?" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="-390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-8" target="yn930gfV0JZmbcSHbWSg-10">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-8" target="yn930gfV0JZmbcSHbWSg-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-8" target="yn930gfV0JZmbcSHbWSg-12">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-8" target="yn930gfV0JZmbcSHbWSg-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-8" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-8" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;" parent="1" vertex="1">
           <mxGeometry x="1328.75" y="-370" width="42.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-10" target="yn930gfV0JZmbcSHbWSg-39">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-10" target="yn930gfV0JZmbcSHbWSg-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-10" target="yn930gfV0JZmbcSHbWSg-41">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-10" target="yn930gfV0JZmbcSHbWSg-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-10" value="Atualiza o content type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-10" value="Atualiza o content type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-12" target="yn930gfV0JZmbcSHbWSg-37">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-12" target="yn930gfV0JZmbcSHbWSg-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-12" target="yn930gfV0JZmbcSHbWSg-41">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-12" target="yn930gfV0JZmbcSHbWSg-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-12" value="Cria o content type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-12" value="Cria o content type" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-14" value="SIM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-14" value="SIM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-313.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-15" value="NÃO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-15" value="NÃO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-436.25" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-16" target="yn930gfV0JZmbcSHbWSg-31">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-16" target="yn930gfV0JZmbcSHbWSg-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-16" target="yn930gfV0JZmbcSHbWSg-25">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-16" target="yn930gfV0JZmbcSHbWSg-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-16" value="&lt;div&gt;&lt;b&gt;API - GET&lt;/b&gt;&lt;/div&gt;Get a single content type" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-16" value="&lt;div&gt;&lt;b&gt;API - GET&lt;/b&gt;&lt;/div&gt;Get a single content type" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="-400" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-25" target="yn930gfV0JZmbcSHbWSg-15">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-25" target="yn930gfV0JZmbcSHbWSg-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-25" value="422" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-25" value="422" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="-500" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-31" target="yn930gfV0JZmbcSHbWSg-14">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-31" target="yn930gfV0JZmbcSHbWSg-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-31" value="200" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-31" value="200" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1110" y="-270" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-37" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create a content type&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-37" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create a content type&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-650" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-39" value="&lt;b&gt;API - PUT&lt;/b&gt;&lt;div&gt;Update Content Type&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-39" value="&lt;b&gt;API - PUT&lt;/b&gt;&lt;div&gt;Update Content Type&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="-160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-41" target="yn930gfV0JZmbcSHbWSg-65">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-41" target="yn930gfV0JZmbcSHbWSg-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-41" value="Verifica se no &lt;b&gt;schema&lt;/b&gt; possui algum data_type que retorne &lt;b&gt;&quot;file&quot;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-41" value="Verifica se no &lt;b&gt;schema&lt;/b&gt; possui algum data_type que retorne &lt;b&gt;&quot;file&quot;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="-380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-49" target="yn930gfV0JZmbcSHbWSg-51">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-49" target="yn930gfV0JZmbcSHbWSg-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-49" value="Guarda o uid desse data_type" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-49" value="Guarda o uid desse data_type" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1722.5" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-51" target="yn930gfV0JZmbcSHbWSg-53">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-51" target="yn930gfV0JZmbcSHbWSg-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-51" value="Get o objeto do uid da entry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-51" value="Get o objeto do uid da entry" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1882.5" y="-250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-53" target="yn930gfV0JZmbcSHbWSg-55">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-53" target="yn930gfV0JZmbcSHbWSg-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-53" value="&lt;div&gt;&lt;b&gt;API - GET&lt;/b&gt;&lt;/div&gt;Get a single entry" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-53" value="&lt;div&gt;&lt;b&gt;API - GET&lt;/b&gt;&lt;/div&gt;Get a single entry" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1882.5" y="-170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-55" target="yn930gfV0JZmbcSHbWSg-62">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-55" target="yn930gfV0JZmbcSHbWSg-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-55" value="Baixa a imagem pela url" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-55" value="Baixa a imagem pela url" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1882.5" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-62" target="yn930gfV0JZmbcSHbWSg-63">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-62" target="yn930gfV0JZmbcSHbWSg-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-62" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Upload asset&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-62" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Upload asset&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1882.5" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-63" value="Precisa adicionar um arquivo no form-data&lt;br&gt;&lt;br&gt;Key - asset[upload]&lt;div&gt;Type - file&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-63" value="Precisa adicionar um arquivo no form-data&lt;br&gt;&lt;br&gt;Key - asset[upload]&lt;div&gt;Type - file&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1872.5" y="170" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-65" target="yn930gfV0JZmbcSHbWSg-49">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-65" target="yn930gfV0JZmbcSHbWSg-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-65" target="yn930gfV0JZmbcSHbWSg-70">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-65" target="yn930gfV0JZmbcSHbWSg-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-65" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-65" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;" parent="1" vertex="1">
           <mxGeometry x="1761.25" y="-370" width="42.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-70" target="yn930gfV0JZmbcSHbWSg-73">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yn930gfV0JZmbcSHbWSg-70" target="yn930gfV0JZmbcSHbWSg-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-70" value="Criação da entry" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-70" value="Criação da entry" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1722.5" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.563;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.563;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="-395" as="sourcePoint" />
             <mxPoint x="1780.0600000000004" y="-530" as="targetPoint" />
@@ -243,20 +243,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-73" target="yn930gfV0JZmbcSHbWSg-74">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-73" target="yn930gfV0JZmbcSHbWSg-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-73" value="&lt;b&gt;API - GET&lt;/b&gt;&lt;div&gt;Get a single entry&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-73" value="&lt;b&gt;API - GET&lt;/b&gt;&lt;div&gt;Get a single entry&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1920" y="-540" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yn930gfV0JZmbcSHbWSg-74" target="yn930gfV0JZmbcSHbWSg-77">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yn930gfV0JZmbcSHbWSg-74" target="yn930gfV0JZmbcSHbWSg-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-74" value="Copy payload" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-74" value="Copy payload" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2090" y="-530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yn930gfV0JZmbcSHbWSg-77" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create an entry with JSON RTE&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yn930gfV0JZmbcSHbWSg-77" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create an entry with JSON RTE&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="-540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gfyvVSMNftCfD7n5EOdD-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Anotações:&lt;/h1&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Estruturar o diagrama somente com o fluxo de entradas e arquivos (Entry e assets)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Entender se faz sentidos os assets estarem na branch dev ou se apenas deixar elas na&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; branch main e criar perfis&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Diagrama com cenário de merge de branches do deploy content types e global fields (CLI ou&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; API)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Workflow para conteúdo e outro para merge de brances (Content types e global fields)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;OBSSS: Podemos desenvolver apenas um serviço para ambas funcionalidades.&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=none;strokeWidth=2;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-1570" width="530" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

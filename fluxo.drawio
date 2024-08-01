@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="mKH81YA4oT9M9gOP3-xf">
-    <mxGraphModel dx="4037" dy="4003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="6905" dy="5309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,8 +258,14 @@
         <mxCell id="yn930gfV0JZmbcSHbWSg-77" value="&lt;b&gt;API - POST&lt;/b&gt;&lt;div&gt;Create an entry with JSON RTE&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2290" y="-540" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gfyvVSMNftCfD7n5EOdD-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Anotações:&lt;/h1&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Estruturar o diagrama somente com o fluxo de entradas e arquivos (Entry e assets)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Entender se faz sentidos os assets estarem na branch dev ou se apenas deixar elas na&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; branch main e criar perfis&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Diagrama com cenário de merge de branches do deploy content types e global fields (CLI ou&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; API)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Workflow para conteúdo e outro para merge de brances (Content types e global fields)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;OBSSS: Podemos desenvolver apenas um serviço para ambas funcionalidades.&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=none;strokeWidth=2;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="9bre-gGh8r57P_lOyJum-1" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=none;strokeWidth=3;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="-2067" width="3220" height="2707" as="geometry" />
+        </mxCell>
+        <mxCell id="gfyvVSMNftCfD7n5EOdD-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Anotações:&lt;/h1&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Estruturar o diagrama somente com o fluxo de entradas e arquivos (Entry e assets)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Entender se faz sentidos os assets estarem na branch dev ou se apenas deixar elas na&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; branch main e criar perfis&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Diagrama com cenário de merge de branches do deploy content types e global fields (CLI ou&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; API)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; - Workflow para conteúdo e outro para merge de brances (Content types e global fields)&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;OBSSS: Podemos desenvolver apenas um serviço para ambas funcionalidades.&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=none;strokeWidth=2;glass=0;shadow=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-430" y="-1570" width="530" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9bre-gGh8r57P_lOyJum-2" value="Version 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=73;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="-2170" width="420" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

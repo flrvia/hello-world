@@ -388,7 +388,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9bre-gGh8r57P_lOyJum-49" value="Guarda o valor do content_type" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="1155" y="1950.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="1155" y="2245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9bre-gGh8r57P_lOyJum-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" source="9bre-gGh8r57P_lOyJum-51" target="9bre-gGh8r57P_lOyJum-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -427,7 +427,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9bre-gGh8r57P_lOyJum-62" value="&lt;b&gt;API - PUT&lt;/b&gt;&lt;div&gt;Update Content Type&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
-          <mxGeometry x="1155" y="2050.25" width="120" height="80" as="geometry" />
+          <mxGeometry x="1155" y="2345" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9bre-gGh8r57P_lOyJum-64" value="Verifica se no &lt;b&gt;schema&lt;/b&gt; possui algum data_type que retorne &lt;b&gt;&quot;file&quot;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="1405" y="1830.25" width="120" height="60" as="geometry" />
@@ -511,9 +511,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1215.5" y="1730.25" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="9bre-gGh8r57P_lOyJum-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" source="9bre-gGh8r57P_lOyJum-89" target="9bre-gGh8r57P_lOyJum-49" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9bre-gGh8r57P_lOyJum-89" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;fillColor=#ff8400;strokeColor=#F0AD00;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
           <mxGeometry x="1193.75" y="1830.5" width="42.5" height="40" as="geometry" />

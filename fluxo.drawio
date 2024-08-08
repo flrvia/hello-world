@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Página-1" id="mKH81YA4oT9M9gOP3-xf">
-    <mxGraphModel dx="3812" dy="19602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4465" dy="19868" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1559,6 +1559,9 @@
         <mxCell id="NszgTctHfv270JR3jGtm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-42" target="NszgTctHfv270JR3jGtm-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-42" target="NszgTctHfv270JR3jGtm-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NszgTctHfv270JR3jGtm-42" value="Guarda o payload e usará o content_type_uid e uid que se refere a entry" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="34143" y="-7719.75" width="140" height="70" as="geometry" />
         </mxCell>
@@ -1778,6 +1781,66 @@
         </mxCell>
         <mxCell id="NszgTctHfv270JR3jGtm-105" value="Encerre o fluxo de migração de conteúdo" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="34599" y="-8140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-106" value="triggered_at &amp;gt; content_type updated_at" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="34409" y="-6404" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-108" target="NszgTctHfv270JR3jGtm-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-108" value="se existir data_type = global_field" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33592" y="-6682" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-110" target="NszgTctHfv270JR3jGtm-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-110" value="reference_to" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="33592" y="-6542" width="121" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="33758.444444444445" y="-6283.888888888889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="33535.11111111111" y="-6283.888888888889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-112" value="&lt;b&gt;API - GET&lt;/b&gt;&lt;div&gt;Get a single global field&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="33581.25" y="-6421" width="142.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-116" target="NszgTctHfv270JR3jGtm-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-116" value="&lt;font style=&quot;background-color: rgb(250, 250, 250);&quot;&gt;&lt;span style=&quot;font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 11px; text-align: start; text-wrap: nowrap;&quot; class=&quot;response-meta-status-code is-unsuccessful&quot;&gt;422&lt;/span&gt;&lt;span style=&quot;padding-left: var(--spacing-xs); font-family: Inter, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, Cantarell, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, Helvetica, Arial, sans-serif; font-size: 11px; text-align: start; text-wrap: nowrap;&quot; class=&quot;response-meta-status-code-desc is-unsuccessful&quot; data-testid=&quot;response-status-code-desc&quot;&gt;Unprocessable Entity&lt;/span&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="33694.13" y="-6284" width="157.87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-117" target="NszgTctHfv270JR3jGtm-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-117" value="200 OK" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="33455" y="-6281" width="147" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-120" value="&lt;div style=&quot;font-family: IBMPlexMono, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;div style=&quot;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;&quot;&gt;    &quot;error_message&quot;: &quot;The Global Field &#39;config&#39; was not found. Please try again.&quot;,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;    &quot;error_code&quot;: 118,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;    &quot;errors&quot;: {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;        &quot;uid&quot;: [&lt;/div&gt;&lt;div style=&quot;&quot;&gt;            &quot;is not valid.&quot;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;        ]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;    }&lt;/div&gt;&lt;div style=&quot;&quot;&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="33845" y="-6082.5" width="630.07" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-125" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-122" target="NszgTctHfv270JR3jGtm-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NszgTctHfv270JR3jGtm-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="33639.555555555555" y="-5930.555555555557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-122" value="global_field updated_at &amp;lt; triggered_at" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;snapToPoint=0;fixDash=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="33458.5" y="-6086" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-124" value="" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="33351" y="-5930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NszgTctHfv270JR3jGtm-127" value="" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;resizable=1;" vertex="1" parent="1">
+          <mxGeometry x="33587" y="-5930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
